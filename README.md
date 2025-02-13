@@ -6,7 +6,7 @@ The **Workout Plan API** allows users to retrieve workout routines based on the 
 
 ### Base URL
 ```
-[YOUR_DEPLOYED_API_URL]
+https://workout-plan-api.onrender.com
 ```
 
 ## Endpoints
