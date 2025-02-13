@@ -6,7 +6,7 @@ The **Workout Plan API** allows users to retrieve workout routines based on the 
 
 ### Base URL
 ```
-[YOUR_DEPLOYED_API_URL]
+https://workout-plan-api.onrender.com
 ```
 
 ## Endpoints
@@ -14,7 +14,7 @@ The **Workout Plan API** allows users to retrieve workout routines based on the 
 ### 1. Get All Workout Plans
 **Endpoint:**
 ```
-GET [YOUR_DEPLOYED_API_URL]/workout_plan
+GET https://workout-plan-api.onrender.com/workout_plan
 ```
 **Description:**
 Fetches the entire workout plan.
@@ -42,14 +42,14 @@ Fetches the entire workout plan.
 ### 2. Get Workout Plan by Day
 **Endpoint:**
 ```
-GET [YOUR_DEPLOYED_API_URL]/workout_plan/:day
+GET https://workout-plan-api.onrender.com/workout_plan/:day
 ```
 **Description:**
 Fetches workout routines for a specific day.
 
 **Example Request:**
 ```
-GET [YOUR_DEPLOYED_API_URL]/workout_plan/Monday
+GET https://workout-plan-api.onrender.com/workout_plan/Monday
 ```
 
 **Response:**
@@ -75,21 +75,21 @@ GET [YOUR_DEPLOYED_API_URL]/workout_plan/Monday
 
 ### 1. Accessing the API
 - Open a web browser or use Postman to make a `GET` request.
-- Use the base URL `[YOUR_DEPLOYED_API_URL]` to access the endpoints.
+- Use the base URL `https://workout-plan-api.onrender.com` to access the endpoints.
 
 ### 2. Example Requests
-- Get the full workout plan: `[YOUR_DEPLOYED_API_URL]/workout_plan`
-- Get workout for a specific day: `[YOUR_DEPLOYED_API_URL]/workout_plan/Tuesday`
+- Get the full workout plan: `https://workout-plan-api.onrender.com/workout_plan`
+- Get workout for a specific day: `https://workout-plan-api.onrender.com/workout_plan/Tuesday`
 
 ### 3. Testing with cURL
 ```sh
-curl -X GET [YOUR_DEPLOYED_API_URL]/workout_plan
+curl -X GET https://workout-plan-api.onrender.com/workout_plan
 ```
 
 ```sh
-curl -X GET [YOUR_DEPLOYED_API_URL]/workout_plan/Wednesday
+curl -X GET https://workout-plan-api.onrender.com/workout_plan/Wednesday
 ```
 
 ## Conclusion
-This API provides a simple way to retrieve structured workout plans. Replace `[YOUR_DEPLOYED_API_URL]` with your actual deployment URL to use it live.
+This API provides a simple way to retrieve structured workout plans `https://workout-plan-api.onrender.com/workout_plan`
 
